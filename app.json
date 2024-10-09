@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SisFaz gourmet",
+    "slug": "react-native-sisfaz",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sisfaz.app"
+    },
+    "web": {
+      "config": {
+        "devServer": {
+          "port": 9090
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70d5655e-d5e4-4dc3-8f37-1290efeda05c"
+      }
+    },
+    "owner": "lucaslutf"
+  }
+}
